@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PowerUp_Fireball
+  - Barrier
+  - Enemy
+  - Weapon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2946070777
+    locked: 1
+  - name: BG Tiles
+    uniqueID: 1017252589
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MapTiles
+    uniqueID: 3718692685
+    locked: 0
+  - name: ActiveSprites
+    uniqueID: 3492960645
+    locked: 0

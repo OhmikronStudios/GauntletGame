@@ -1,0 +1,1891 @@
+fileFormatVersion: 2
+guid: 3cc1ee0c3f069444c9d72b350f050dfb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1297857595841623344
+    second: LeftCorner_Soft
+  - first:
+      213: 2454809160005672239
+    second: LeftCorner_Hard
+  - first:
+      213: -8105105014440366583
+    second: Top_Stone
+  - first:
+      213: 1116138614767023611
+    second: RightCorner_soft
+  - first:
+      213: 5936359646633124185
+    second: RightCorner_hard
+  - first:
+      213: 7163477592719575120
+    second: Floor_small
+  - first:
+      213: -6748978711341086081
+    second: Floor_medium
+  - first:
+      213: 8356661919589627727
+    second: Floor_leftrise
+  - first:
+      213: 3018801783462461538
+    second: Floor_large
+  - first:
+      213: -3913765192604429672
+    second: maptiles_9
+  - first:
+      213: 4347414125915185096
+    second: Floor_fall
+  - first:
+      213: 997182638357979997
+    second: maptiles_11
+  - first:
+      213: -7792274649056732953
+    second: maptiles_12
+  - first:
+      213: 244212115360851879
+    second: maptiles_13
+  - first:
+      213: 8554990788268725152
+    second: maptiles_14
+  - first:
+      213: 6147217788226708780
+    second: maptiles_15
+  - first:
+      213: 3885195311387486845
+    second: maptiles_16
+  - first:
+      213: -5942214061211477477
+    second: maptiles_17
+  - first:
+      213: -2311924981757267366
+    second: LeftCorner_Edge
+  - first:
+      213: -972888447776952404
+    second: LeftCorner_Small
+  - first:
+      213: 3768797997886650698
+    second: Top_Wood
+  - first:
+      213: 4442645141769806287
+    second: RightCorner_small
+  - first:
+      213: 71985631799240142
+    second: RightCorner_edge
+  - first:
+      213: -371287016436745599
+    second: maptiles_23
+  - first:
+      213: 1214461586321692875
+    second: maptiles_24
+  - first:
+      213: -3367232936988903428
+    second: maptiles_25
+  - first:
+      213: -283718704465346159
+    second: maptiles_26
+  - first:
+      213: 5662342733476902439
+    second: maptiles_27
+  - first:
+      213: 7179401712205105700
+    second: maptiles_28
+  - first:
+      213: 6542347416768143089
+    second: maptiles_29
+  - first:
+      213: -6355179775474250639
+    second: maptiles_30
+  - first:
+      213: -5460577876169995734
+    second: Backwall_Large
+  - first:
+      213: -9101281153745118403
+    second: BackWall_small
+  - first:
+      213: 2000436083274999375
+    second: maptiles_33
+  - first:
+      213: 5423611401854515514
+    second: maptiles_34
+  - first:
+      213: 4037731674594353097
+    second: maptiles_35
+  - first:
+      213: 8788259914291887827
+    second: maptiles_36
+  - first:
+      213: 8001029284549835428
+    second: maptiles_37
+  - first:
+      213: -3730578371094404215
+    second: maptiles_38
+  - first:
+      213: -7157542261445286469
+    second: maptiles_39
+  - first:
+      213: 2842671337361238767
+    second: maptiles_40
+  - first:
+      213: -2534685344462476188
+    second: DarkSquare
+  - first:
+      213: -5506730509804943242
+    second: LeftWall
+  - first:
+      213: -6969267920582176744
+    second: RightWall
+  - first:
+      213: 8059749288645636342
+    second: maptiles_44
+  - first:
+      213: -1553841854126748751
+    second: maptiles_45
+  - first:
+      213: -7187750452349691936
+    second: maptiles_46
+  - first:
+      213: -4599326705382966464
+    second: maptiles_47
+  - first:
+      213: 5733268625919772964
+    second: Platform_left
+  - first:
+      213: 5171681773323182325
+    second: Platform_2
+  - first:
+      213: 148510177155613762
+    second: Platform_1
+  - first:
+      213: -7001456712508734628
+    second: Platform_right
+  - first:
+      213: -9195233748916086998
+    second: maptiles_52
+  - first:
+      213: -8028331076845983247
+    second: maptiles_53
+  - first:
+      213: -9147872651723224452
+    second: maptiles_54
+  - first:
+      213: 5187878668845889950
+    second: RightStair_empty
+  - first:
+      213: 7729420178839904327
+    second: LeftStair_empty
+  - first:
+      213: -5956963155070791392
+    second: maptiles_57
+  - first:
+      213: 1717254704825964195
+    second: maptiles_58
+  - first:
+      213: 1508633488579651716
+    second: maptiles_59
+  - first:
+      213: -7252354134371629504
+    second: RightStair_Hard
+  - first:
+      213: 166683726802060232
+    second: Floor_Wood
+  - first:
+      213: -3961720516430334952
+    second: Floor_Stone_Short
+  - first:
+      213: 711059341229532910
+    second: maptiles_63
+  - first:
+      213: -6652034559197027721
+    second: LeftStair_hard
+  - first:
+      213: 8609670936496338860
+    second: RightStair_soft
+  - first:
+      213: 5137630614023400768
+    second: LeftCorner_Bottom
+  - first:
+      213: -1456616565687006221
+    second: Floor_edgeleft
+  - first:
+      213: 4874781039393345737
+    second: Floor_Stone
+  - first:
+      213: -8578216324167920051
+    second: Floor_edgeright
+  - first:
+      213: -9136008422458504622
+    second: RightWall_corner
+  - first:
+      213: 1841005258062089827
+    second: LeftStair_soft
+  - first:
+      213: -385483724304023021
+    second: RightWall_half
+  - first:
+      213: -3253042455289573833
+    second: LeftWall_half
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 144
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeftCorner_Soft
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 279
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7c9f8f177e38746a94036a2adff8cc
+      internalID: -1297857595841623344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftCorner_Hard
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 279
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4075cb75a5133469022969d58a2f5d
+      internalID: 2454809160005672239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top_Stone
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 311
+        width: 162
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c06944a98f58745bfbc3c2b6da334b
+      internalID: -8105105014440366583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightCorner_soft
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 279
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb42dff5cdffb541aba9e66b4a36627
+      internalID: 1116138614767023611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightCorner_hard
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 279
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af063e81917afc441833f0e6843a462a
+      internalID: 5936359646633124185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_small
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 311
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563ec65e27145184e824a0ab64a44b24
+      internalID: 7163477592719575120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_medium
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 311
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e6a7919069f9c46939ea4664324e03
+      internalID: -6748978711341086081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_leftrise
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abde999209847e4ebc23616678012ab
+      internalID: 8356661919589627727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_large
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c72428d9d9d60f4d934ba39b29b2359
+      internalID: 3018801783462461538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_9
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8dee2e8081e424fbf098e39f765c6f
+      internalID: -3913765192604429672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_fall
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 311
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce74a070af7b344cabb91dc2b27a51d
+      internalID: 4347414125915185096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_11
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 311
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490d69c957c9eaa4a8d29e202d6627fc
+      internalID: 997182638357979997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_12
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 311
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e0eae037d08444b7a0dcc3c37bc62
+      internalID: -7792274649056732953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_13
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 327
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ffbdd9f7cb19242853949afaef880b
+      internalID: 244212115360851879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_14
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 327
+        width: 114
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e42ecdd8e38814eb73517a47b51481
+      internalID: 8554990788268725152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_15
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 311
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834d06fca48ea3429add0b68a9329ef
+      internalID: 6147217788226708780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_16
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 311
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc868a3c9217e34f8573b78f1252083
+      internalID: 3885195311387486845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_17
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 311
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24de8a8f66acdb347943b16e743a05b8
+      internalID: -5942214061211477477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftCorner_Edge
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 231
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a4c2ad14e23574da2a75724a670deb
+      internalID: -2311924981757267366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftCorner_Small
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 247
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff0fcbb23a8a8144b0f4dbb74ff619d
+      internalID: -972888447776952404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Top_Wood
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 263
+        width: 178
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9f6a16277035b449ce713ec15f39f2
+      internalID: 3768797997886650698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightCorner_small
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 247
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7671d7033da864dbcae98aeb4d5edd
+      internalID: 4442645141769806287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightCorner_edge
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 231
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d59456d96ed4342bbf24f59f703bd0
+      internalID: 71985631799240142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_23
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 135
+        width: 18
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc89136fba3a7054888d252cb5dbd537
+      internalID: -371287016436745599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_24
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 263
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91ca8fb972049a4a95fab7f3bc4942e
+      internalID: 1214461586321692875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_25
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 247
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8964d7c3500027043ae5496045b8594f
+      internalID: -3367232936988903428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_26
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 103
+        width: 34
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7510e2d460c6f54c952ebec5f64829a
+      internalID: -283718704465346159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_27
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 247
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc683d42ea87854da42163074146212
+      internalID: 5662342733476902439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_28
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 263
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1aaadbc2ccd204b9cee9a5fc247212
+      internalID: 7179401712205105700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_29
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 135
+        width: 18
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420cf07c57b6c7e4d8df2cd863ebbc4d
+      internalID: 6542347416768143089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_30
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 199
+        width: 50
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86334f458ae55064398bfad3e3df034c
+      internalID: -6355179775474250639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Backwall_Large
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 199
+        width: 146
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c059d2ddd9e00c54e9ac02055ee0d73f
+      internalID: -5460577876169995734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackWall_small
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 263
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3b337931947e348863e235fbf74379
+      internalID: -9101281153745118403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_33
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 167
+        width: 18
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0894162461571254dbceb6107c878d1c
+      internalID: 2000436083274999375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_34
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 263
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7398955ea5ac65046b6d5be7a0946ca6
+      internalID: 5423611401854515514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_35
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 231
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fac62aef68d5724192254ad1ef85616
+      internalID: 4037731674594353097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_36
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 231
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cad46f3c297cc459d6a9101ffc19cd
+      internalID: 8788259914291887827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_37
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 231
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62ae12baa383bc418ef33b9760c9003
+      internalID: 8001029284549835428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_38
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 247
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bb0fa39ae03984b90723ea72c5e5dd
+      internalID: -3730578371094404215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_39
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 247
+        width: 98
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb0161fdfb74f8438e5f4927b81a157
+      internalID: -7157542261445286469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_40
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 247
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9da40d92296394ba7024756722b28c
+      internalID: 2842671337361238767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkSquare
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 215
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d18cdf2af3e7c4da25c143e1ac6e76
+      internalID: -2534685344462476188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftWall
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 87
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3abdcad364f774aaebc77df317fb18
+      internalID: -5506730509804943242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightWall
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 87
+        width: 34
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a221f5fa53eea47bed51dcdd9fd910
+      internalID: -6969267920582176744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_44
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 199
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c51a10e1e06c44bd09cd8b167a4da
+      internalID: 8059749288645636342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_45
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 167
+        width: 34
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fdba041d7866f4ca00f754d81b9f3d
+      internalID: -1553841854126748751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_46
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 199
+        width: 66
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59c504820c52674f90b83c99870c348
+      internalID: -7187750452349691936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_47
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 103
+        width: 146
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec1e875f2dbe3747853852de13c5f40
+      internalID: -4599326705382966464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_left
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 167
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb4fc886cbc35545b5ef4ba8473df34
+      internalID: 5733268625919772964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 183
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0665941840f35e440b1083baa68409b1
+      internalID: 5171681773323182325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 183
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25eeacea71ff33f478893a052a0733f6
+      internalID: 148510177155613762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform_right
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 167
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e484fb9bf158547996ccb6f7079f49
+      internalID: -7001456712508734628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_52
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 167
+        width: 114
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26370c60868b1d94690b91ecb0e1e102
+      internalID: -9195233748916086998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_53
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 167
+        width: 82
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19eeeae76d5934f4686aff43c84fa038
+      internalID: -8028331076845983247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_54
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 135
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b90ad5bf7905b428bb5d99e441ca2f
+      internalID: -9147872651723224452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightStair_empty
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac395765292ccc640b3d96c07397a0ce
+      internalID: 5187878668845889950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftStair_empty
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 119
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96eb2a36fc58e746bf678e6571930f2
+      internalID: 7729420178839904327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_57
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 23
+        width: 146
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31f7999cc35967428a1003fbae740bb
+      internalID: -5956963155070791392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_58
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 119
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61749b5c814bc2488b35b3910f73a2b
+      internalID: 1717254704825964195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_59
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 135
+        width: 98
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff0801d5f61ab5499a76ec71c61bf7b
+      internalID: 1508633488579651716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightStair_Hard
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 39
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80d06626238fd94a8a59a3336c4710f
+      internalID: -7252354134371629504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Wood
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 87
+        width: 178
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e985e6b6a80a5b48a5be4bf93b69f03
+      internalID: 166683726802060232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Stone_Short
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 87
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc38796b6cabc954f95370957eb9962e
+      internalID: -3961720516430334952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: maptiles_63
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 95
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862b7b484d1d31c4194bf2ba70516232
+      internalID: 711059341229532910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftStair_hard
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 39
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c69fa6e686b0b44db1afbd65e5c010f
+      internalID: -6652034559197027721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightStair_soft
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 39
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dcaf08fb659294ca223c1c38e3c655
+      internalID: 8609670936496338860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftCorner_Bottom
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 39
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b926aff51e7b2d40b809ccc6a9d8c98
+      internalID: 5137630614023400768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_edgeleft
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 39
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d539e10d6f820f24badb4bea76df0ef8
+      internalID: -1456616565687006221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_Stone
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 39
+        width: 226
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba173d5a262b70f4d9e9dd7e987de045
+      internalID: 4874781039393345737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor_edgeright
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 39
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38622bfb006091b499b7b37c47107c09
+      internalID: -8578216324167920051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightWall_corner
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 39
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cbb2a2b84f5d44f9fdf05d7df463ef
+      internalID: -9136008422458504622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftStair_soft
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 39
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92a6dbb42981c7409bd48526188d269
+      internalID: 1841005258062089827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightWall_half
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 151
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b76998235176248936c0f0a3b75d52
+      internalID: -385483724304023021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftWall_half
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 147
+        width: 33
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858266497b4bae64c9cf36bc33a78ffb
+      internalID: -3253042455289573833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
