@@ -29,10 +29,17 @@ public class Player : MonoBehaviour
     float projectileSpeed = 4f;
 
 
+    // Create a reference to AudioSource to be used when playing sounds for 'Character'
+    public AudioSource aSource;
+    // Used to store Audio files to played
+    public AudioClip jumpSnd;
+    public AudioClip deathSnd;
+    public AudioClip hurtSnd;
+    public AudioClip swingSnd;
+    public AudioClip throwSnd;
 
-    
 
-    
+
 
 
     // Start is called before the first frame update
@@ -59,6 +66,17 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("SpecialAttack"))
             {SpecialAttack();}
 
+        // Check if variable is set to something
+        if (!aSource)
+        {
+            // Add an 'AudioSource' because it is not added
+            aSource = gameObject.AddComponent<AudioSource>();
+
+            // Change variables on the 'AudioSource'
+            aSource.loop = false;
+            aSource.playOnAwake = false;
+
+        }
 
 
     }
@@ -79,6 +97,7 @@ public class Player : MonoBehaviour
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             Debug.Log("Jump");
+            PlaySound(jumpSnd, 1.0f);
         }
 
     }
@@ -123,6 +142,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger("attack");
+            PlaySound(swingSnd, 1.0f);
             GameObject Sword = Instantiate(sword, projectileSpawn.transform.position, Quaternion.identity) as GameObject;
             
         }
@@ -135,6 +155,7 @@ public class Player : MonoBehaviour
             anim.SetTrigger("toss");
             Debug.Log("Toss");
             GameObject Axe = Instantiate(axe, projectileSpawn.transform.position, Quaternion.identity) as GameObject;
+            PlaySound(throwSnd, 1.0f);
             if (isFacingLeft)
             {
                 Axe.GetComponent<Rigidbody2D>().velocity = new Vector2(projectileSpeed, projectileSpeed);
@@ -154,15 +175,28 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             health--;
+            PlaySound(hurtSnd, 1.0f);
             if (health <= 0)
             {
-                Destroy(gameObject);
+                //PlaySound(deathSnd, 1.0f);
+                Destroy(gameObject, 2.5f);
+                FindObjectOfType<GameManager>().LoadGameOver();
             }
         }
 
-        
 
     }
 
+    // Called when a SFX needs to be played
+    public void PlaySound(AudioClip clip, float volume = 1.0f)
+    {
+        // Assign 'AudioClip' when function is called
+        aSource.clip = clip;
 
+        // Assign 'volume' to 'AudioSource' when function is called
+        aSource.volume = volume;
+
+        // Play assigned 'clip' through 'AudioSource'
+        aSource.Play();
+    }
 }

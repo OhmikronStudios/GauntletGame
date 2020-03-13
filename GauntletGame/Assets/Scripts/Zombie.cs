@@ -9,6 +9,12 @@ public class Zombie : MonoBehaviour
     public bool isFacingRight;
     [SerializeField] public float moveSpeed = 2f;
 
+    // Create a reference to AudioSource to be used when playing sounds for 'Character'
+    public AudioSource aSource;
+
+    // Used to store Audio files to played
+    public AudioClip dieSnd;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -29,9 +35,11 @@ public class Zombie : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            
             health--;
             if (health <= 0)
             {
+                AudioManager.instance.PlaySingleSound(dieSnd, 1.0f);
                 Destroy(gameObject);
             }
         }
@@ -72,8 +80,24 @@ public class Zombie : MonoBehaviour
             health--;
             if (health <= 0)
             {
-                Destroy(gameObject);
+                //AudioManager.instance.PlaySingleSound(dieSnd, 5.0f);
+                //PlaySound(dieSnd, 1.0f);
+                Destroy(gameObject,0.1f);
+                
             }
         }
     }
+    public void PlaySound(AudioClip clip, float volume = 1.0f)
+{
+    // Assign 'AudioClip' when function is called
+    aSource.clip = clip;
+
+    // Assign 'volume' to 'AudioSource' when function is called
+    aSource.volume = volume;
+
+    // Play assigned 'clip' through 'AudioSource'
+    aSource.Play();
 }
+
+}
+
