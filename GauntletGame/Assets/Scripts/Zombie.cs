@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Zombie : MonoBehaviour
 {
-    [SerializeField] public int health = 5;
+    
+    [SerializeField] public int scoreValue = 100;
+
     public Rigidbody2D rb;
     public bool isFacingRight;
     [SerializeField] public float moveSpeed = 2f;
@@ -26,34 +28,9 @@ public class Zombie : MonoBehaviour
     void Update()
     {
         Move();
-        
-
-
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            
-            health--;
-            if (health <= 0)
-            {
-                AudioManager.instance.PlaySingleSound(dieSnd, 1.0f);
-                Destroy(gameObject);
-            }
-        }
 
-        
-    }
-
-    void flip()
-    {
-        isFacingRight = !isFacingRight;
-        Vector3 scaleFactor = transform.localScale;
-        scaleFactor.x *= -1;
-        transform.localScale = scaleFactor;
-    }
 
     void Move()
     {
@@ -68,36 +45,43 @@ public class Zombie : MonoBehaviour
         }
     }
 
+  
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Barrier")
+        if (collision.gameObject.tag == "Barrier" || collision.gameObject.tag == "Enemy")
         {
             flip();
         }
 
         else if (collision.gameObject.tag == "Weapon")
         {
-            health--;
-            if (health <= 0)
-            {
-                //AudioManager.instance.PlaySingleSound(dieSnd, 5.0f);
-                //PlaySound(dieSnd, 1.0f);
-                Destroy(gameObject,0.1f);
-                
-            }
+            //AudioManager.instance.PlaySingleSound(dieSnd, 5.0f);
+            PlaySound(dieSnd, 1.0f);
+            FindObjectOfType<HUDManager>().AddToScore(scoreValue);
+            Destroy(gameObject);
         }
     }
+
+  void flip()
+    {
+        isFacingRight = !isFacingRight;
+        Vector3 scaleFactor = transform.localScale;
+        scaleFactor.x *= -1;
+        transform.localScale = scaleFactor;
+    }
+
     public void PlaySound(AudioClip clip, float volume = 1.0f)
-{
-    // Assign 'AudioClip' when function is called
-    aSource.clip = clip;
+    {
+        // Assign 'AudioClip' when function is called
+        aSource.clip = clip;
 
-    // Assign 'volume' to 'AudioSource' when function is called
-    aSource.volume = volume;
+        // Assign 'volume' to 'AudioSource' when function is called
+        aSource.volume = volume;
 
-    // Play assigned 'clip' through 'AudioSource'
-    aSource.Play();
-}
+        // Play assigned 'clip' through 'AudioSource'
+        aSource.Play();
+    }
 
 }
 

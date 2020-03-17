@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     static GameManager _instance = null;
-
+   
     private GameObject pauseMenu;
-
-
+    [SerializeField] int scoreText;
     public static GameManager Instance
-    {
-        get { return _instance; }
-    }
+    { get { return _instance; } }
 
+   
 
     private void Awake()
     {
@@ -63,8 +62,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
+        
+         
         if (Input.GetKeyDown(KeyCode.P))
         {
             if (!pauseMenu)
@@ -131,6 +130,16 @@ public class GameManager : MonoBehaviour
     public void LoadGameOver()
     {
         SceneManager.LoadScene("GameOver");
+    }
+    public void LoadEndScreen()
+    {
+        scoreText = FindObjectOfType<HUDManager>().getScore();
+        SceneManager.LoadScene("FinalScreen");
+    }
+
+    public int getFinalScore()
+    {
+        return scoreText;
     }
 }
 

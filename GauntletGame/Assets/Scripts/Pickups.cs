@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Pickups : MonoBehaviour
 {
+    [SerializeField] int axes = 3;
+    [SerializeField] int score = 500;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,16 +23,19 @@ public class Pickups : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Picked UP");
-        if (this.gameObject.tag == "Axe")
+        if (collision.gameObject.tag == "Player")
         {
-            if (collision.gameObject.tag == "Player")
+            if (gameObject.tag == "PowerUp_Axe")
             {
-               
-                Destroy(gameObject);
-               
+                FindObjectOfType<Player>().GainAxes(axes);
             }
+            else if(gameObject.tag == "PowerUp_Score")
+            {
+                FindObjectOfType<HUDManager>().AddToScore(score);
+            }
+            Destroy(gameObject);
         }
+
     }
 
  

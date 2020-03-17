@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject projectileSpawn;
     float projectileSpeed = 4f;
 
-
+    [Header("Sounds")]
     // Create a reference to AudioSource to be used when playing sounds for 'Character'
     public AudioSource aSource;
     // Used to store Audio files to played
@@ -71,11 +71,9 @@ public class Player : MonoBehaviour
         {
             // Add an 'AudioSource' because it is not added
             aSource = gameObject.AddComponent<AudioSource>();
-
             // Change variables on the 'AudioSource'
             aSource.loop = false;
             aSource.playOnAwake = false;
-
         }
 
 
@@ -97,7 +95,7 @@ public class Player : MonoBehaviour
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             Debug.Log("Jump");
-            PlaySound(jumpSnd, 1.0f);
+            PlaySound(jumpSnd, 0.25f);
         }
 
     }
@@ -124,10 +122,9 @@ public class Player : MonoBehaviour
             anim.SetBool("crouched", true);
             collider2D.size = new Vector2(colX, colY / 2);
             collider2D.offset = new Vector2(offsetX, offsetY / 2);
-            rb.velocity = Vector2.zero;
+            
+                {rb.velocity = new Vector2(0,0);}
             Debug.Log("Crouching");
-
-
         }
         if (Input.GetButtonUp("Crouch"))
         {
@@ -174,8 +171,35 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
+            Debug.Log(collision.gameObject.name);
             health--;
-            PlaySound(hurtSnd, 1.0f);
+            PlaySound(hurtSnd, 0.5f);
+            if (health <= 0)
+            {
+                PlaySound(deathSnd, 1.0f);
+                Destroy(gameObject);
+                FindObjectOfType<GameManager>().LoadGameOver();
+            }
+
+            else
+            {
+                rb.velocity = Vector2.zero;
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                anim.SetTrigger("hurt");
+            }
+        }
+
+        
+
+
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "DeathBox")
+        {
+            health = 0;
+            PlaySound(hurtSnd, 0.5f);
             if (health <= 0)
             {
                 //PlaySound(deathSnd, 1.0f);
@@ -183,9 +207,30 @@ public class Player : MonoBehaviour
                 FindObjectOfType<GameManager>().LoadGameOver();
             }
         }
+        if (collision.gameObject.tag == "EnemyProj")
+        {
+            health--;
+            PlaySound(hurtSnd, 0.5f);
+            if (health <= 0)
+            {
+                PlaySound(deathSnd, 1.0f);
+                Destroy(gameObject);
+                FindObjectOfType<GameManager>().LoadGameOver();
+            }
 
-
+            else
+            {
+                rb.velocity = Vector2.zero;
+                rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                anim.SetTrigger("hurt");
+            }
+        }
     }
+
+
+
+
+
 
     // Called when a SFX needs to be played
     public void PlaySound(AudioClip clip, float volume = 1.0f)
@@ -198,5 +243,19 @@ public class Player : MonoBehaviour
 
         // Play assigned 'clip' through 'AudioSource'
         aSource.Play();
+    }
+    
+    public int GetHealth()
+    {
+        return health;
+    }
+    public int GetAxes()
+    {
+        return axeCount;
+    }
+
+    public void GainAxes(int axes)
+    {
+        axeCount += axes;
     }
 }

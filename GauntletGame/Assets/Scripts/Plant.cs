@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Plant : MonoBehaviour
 {
+    [SerializeField] public int scoreValue = 100;
+
     public float fireRate = 3f;
     public float fireRange = 1f;
     public Transform leftSpawnPoint;
@@ -59,18 +61,17 @@ public class Plant : MonoBehaviour
         }
     }
 
-    //private void OnTriggerStay2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        timeSinceLastFire += Time.deltaTime;
-    //        if (timeSinceLastFire >= fireRate)
-    //        {
-    //            timeSinceLastFire = 0;
-    //            fire();
-    //        }
-    //    }
-    //}
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("plant struck");
+        if (collision.gameObject.tag == "Weapon")
+        {
+            Debug.Log("plant struck by sword");
+            FindObjectOfType<HUDManager>().AddToScore(scoreValue);
+            Destroy(gameObject);
+        }
+    }
 
     void shootDirectionCheck()
     {

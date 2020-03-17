@@ -8,6 +8,11 @@ TagManager:
   - Barrier
   - Enemy
   - Weapon
+  - CameraMove
+  - DeathBox
+  - EnemyProj
+  - PowerUp_Axe
+  - PowerUp_Score
   layers:
   - Default
   - TransparentFX
